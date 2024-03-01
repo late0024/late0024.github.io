@@ -2,16 +2,13 @@ body {
     font-size: 18px;
 }
 
-body ul {
-    list-style-type: square;
-}
 
 header {
     background-color: #E5E5CC;
 }
 
 footer {
-    
+    text-align: left;
 }
 
 section #my-image {
