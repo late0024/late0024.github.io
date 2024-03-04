@@ -1,65 +1,37 @@
 body {
-    font-size: 18px;
+    background-color:#aad4cf;
 }
-
 
 header {
-    background-color: #E5E5CC;
-}
-
-footer {
-    text-align: left;
-}
-
-section #my-image {
-    box-shadow: 0px 2px 1px #000;
-}
-
-.site-title {
-    color: #7d12ff;
-}
-
-a {
-    /* Going to explain more for each of these for myself and to have more comments */
-
-    /* text decoration being set to non removes the underline. Text decoration controls the outward appearance of the text in this case it has no decorations such as underline or bold*/
-    text-decoration:none;
-    /* changes font size */
-    font-size: 20px;
-    /* background color */
-    background-color: limegreen;
-    /* text color */
-    color: white;
-    /* adds space around the text entered with 14 pixels for height and 25 for width to create a rectangular button like link works with display. adds space before box contains the text  */
-    padding: 14px 25px;
-    /* centers the text in the middle of the box */
     text-align: center;
-    /* a property that controls the display of elements in the web page. Most common are inline and block, where inline format lists or seperate objects into a single line so that it does not take its own space.
+    background-image:url(/midterm/images/lone-starfish-wide.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
     
-        Next comes block where it would create a box around the word and its padding
+}
 
-        here there is a property known as inline-block where it combines the inline and block to create a box around the link while also allowing it to retain its inline property.
-
-        I tried using block but I assume it just creates a box around the whole line unless styled otherwise and to be honest I havent figured out how to use only block but this is the better alternative anyway since most links would preferrably be aligned the same line and blocked out 
-    */
-
-    /* IMPORTANT */
-    /* im keeping this because i like it but im adding another link that does the same with a border  */
+article .navigations{
+    display: flex;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
     display: inline-block;
-
-    border: 1px solid black;
-
-    margin-block: 5px;
-
-    
-    
-}
-
-a:hover {
-    background-color: teal;
-}
-
-
-ul .list-links {
     list-style-type: none;
+}
+
+footer{
+
+}
+
+body section #navigation-bar {
+    display: flex;
+}
+
+form {
+    border: 1px, 2px, black;
+}
+
+
+article img{
+    height: 50%;
 }

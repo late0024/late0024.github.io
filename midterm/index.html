@@ -6,25 +6,32 @@
     <title>late0024-midterm</title>
     
     <!-- links 2 different stylesheets one where it resets the style and the other where it starts building code -->
-    <link href="/css/reset.css" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
 </head>
+
 <body>
     <header>
         <!-- header with nav inside and text overlaid on in the middle of the sheet -->
         <h1>
             Lone Starfish
         </h1>
+
+
     </header>
 
-    <section>
-        <nav>Home</nav>
-        <nav>Story</nav>
-        <nav>Contact</nav>
-    </section>
-
     <article>
+        <section class="navigations">
+           <Nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Story</li>
+                    <li>Contact</li>
+                </ul>
+           </Nav>
+            
+            
+        </section>
         <h2>Life of a Starfish</h2>
 
         <img src="images/lone-starfish.jpg" alt="This is a nice Starfish">
@@ -44,14 +51,18 @@
     </article>
     
     <section>
-        <form>
+        <h2>placeholder</h2>
+        <form method="post">
             <label for="fullName">Your Name</label>
-            <input type="text" id="fullName" name="fullName" value="Enter text here">
+            <br>
+            <input type="text" id="fullName" name="fullName">
             <br>
             <label>Your Email</label>
-            <input type="text" value="Enter text here" id="fullEmail">
+            <br>
+            <input type="text" id="fullEmail">
             <br>
             <label>Your Message</label>
+            <br>
             <input type="text">
             <br>
             <label for="yesBtn">Yes</label>
@@ -63,11 +74,11 @@
             <br>
             <input type="button" id="submit" value="Send">
         </form>
+        <br>
     </section>
 
-
     <footer>
-        <cite>&copy Lone Starfish</cite>
+        <cite>&copy; Lone Starfish</cite>
     </footer>
 </body>
 </html>
