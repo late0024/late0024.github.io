@@ -25,24 +25,24 @@
                 Lone Starfish
             </h1>
 
+            <ul class="navigations">
+                <li>
+                    <nav>Home</nav>
+                </li>
+                
+                <li>
+                    <nav>Story</nav>
+                </li>
+                
+                <li>
+                    <nav>Contact</nav>
+                </li>
+            </ul>
+
         </header>
-    
-        <div class="navigations">
+
             <!-- a div containing the navigation bar. -->
-                    <ul>
-                        <li>
-                            <a href ="">Home</a>
-                        </li>
-                        
-                        <li>
-                            <a href ="">Story</a>
-                        </li>
-                        
-                        <li>
-                            <a href ="">Contact</a>
-                        </li>
-                    </ul>
-        </div>
+                    
     
         <article>
             <!-- This article is where the paragraph and the subheadings and the list items with an image with word warp around it -->
@@ -62,25 +62,22 @@
       
         </article>
         
-        <section>
-            <!-- This is where the form resides within the -->
+        <section class="form-section">
             <h2>Contact to learn more</h2>
             <div class="form-submission">
-                <form method="post" >
+                <form method="post">
                     <div class="field-inputs">
+
                         <label for="fullName">Your Name</label>
-                        <br>
                         <input type="text" id="fullName" name="fullName">
-                        <br>
+                        
 
-                        <label>Your Email</label>
-                        <br>
-                        <input type="text" id="fullEmail">
-                        <br>
+                        <label for="fullEmail">Your Email</label>
+                        <input type="text" id="fullEmail" name="fullEmail">
 
-                        <label id="bigger-textarea">Your Message</label>
+                        <label for="message">Your Message</label>
                         <br>
-                        <input type="text">
+                        <textarea id="message"></textarea>
                     </div>
                     
                     <br>

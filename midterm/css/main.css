@@ -1,15 +1,16 @@
 body {
     background-color:#aad4cf;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
 }
 
 body .card-style{
-    width: 60%;
     height: auto;
     background-color: #D4E9E7;
     position: relative;
     margin: auto;
     width: 50%;
+
 }
 
 div .title-card {
@@ -17,11 +18,13 @@ div .title-card {
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
+    height: auto;   
+}
+
+div .title-card h1 {
     text-align: center;
     color: white;
-    padding-left: none;
-    
+    line-height:  300px;
 }
 
 .navigations {
@@ -35,12 +38,11 @@ div .title-card {
     float: left;
 }
 
-.navigations li a {
+.navigations li nav {
     text-decoration: none;
     font-size: 24px;
-    display: block;
+    display: inline-block;
     padding: 8px;
-    background-color: #dddddd;
 }
 
 article h2{
@@ -64,31 +66,36 @@ article p, li {
 }
 
 .form-submission {
-    font-size: large;
     padding: 2%;
-    width: 93%;
+    padding-right: 5%;
+    width: 90%;
     border-style:solid;
     border-width:thin;
     font-size: 14px;
     margin:auto;
-
 }
 
-.form-submission h2 {
-    padding-left: 1%;
+
+
+.form-section h2 {
+    padding: 1.5%;
 }
 
 .form-submission input{
-    padding-bottom: 1%;
+    padding: 1%;
 }
 
-section div .field-inputs input{
+section div .field-inputs input, textarea{
     width: 100%;
+
 }
 
-section div .field-inputs #bigger-textarea{
-    height: 250px;
+section div .field-inputs textarea{
+    width: 101%;
+    resize: none;
+    height: 5rem;
 }
+
 
 footer{
     text-align: right;
