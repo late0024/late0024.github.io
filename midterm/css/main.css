@@ -104,13 +104,13 @@ article h2{
 }
 
 section div .field-inputs input{
-    /* css control for email and name input fields in the form container */
+    /* css control for email and name input fields in the form container for fitting the form */
     width: 100%;
 }
 
 section div .field-inputs textarea{
-    /* css control  */
-    width: 101%;
+    /* css control for textarea to get a larger text field  */
+    width: 100%;
     resize: none;
     height: 5rem;
     padding: 1em;
@@ -118,6 +118,7 @@ section div .field-inputs textarea{
 }
 
 footer{
+    /* citation stylization to the right and give it padding for card spacing on the bottom */
     text-align: right;
     padding: 20px;
     
