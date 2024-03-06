@@ -1,101 +1,122 @@
+
+
 body {
+    /* background container where the darker blue background color is and font family */
     background-color:#aad4cf;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight:normal;
 }
 
 body .card-style{
+    /* foreground container creating a card or board effect to add info on top */
     height: auto;
     background-color: #D4E9E7;
     position: relative;
     margin: auto;
-    width: 50%;
+    width: 60vw;
 
 }
 
 div .title-card {
+    /* div for where the header and wide starfish image is */
     background-image: url(/midterm/images/lone-starfish-wide.jpg);
-    background-size: 100%;
+    background-size:cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: auto;   
+    height: 341px;
+    background-position: center;
+    
 }
 
 div .title-card h1 {
+    /* control for h1 within the background image */
     text-align: center;
     color: white;
-    line-height:  300px;
+    font-size: 3em;
+    line-height: 9.25em;
 }
 
 .navigations {
+    /* div control for the navbar container */
     list-style: none;
-    overflow: hidden;
+    margin: auto;
+    text-align:center;
 }
 
 .navigations li {
-    list-style: none;
-    font-style: none;
-    float: left;
+    /* container control for list items specifically within navbar */
+    border-right: black;
+    display:inline-flex;
+    padding-right: 2em;
+    padding-left: 2em;
+    font-size: 30px;
 }
 
-.navigations li nav {
-    text-decoration: none;
-    font-size: 24px;
-    display: inline-block;
-    padding: 8px;
-}
-
-article h2{
+article{
+    /* text container for body text excluding forms */
     padding-left: 1%;
 }
 
 article img{
+    /* css container control for body image specifically */
     float: left;
-    max-width: 30%;
+    width: 30%;
     height: auto;
     padding-right: 1%;
     padding-left: 1%;
     display: inline-flex;
+    margin: 5px;
 }
 
 article p, li {
-    font-style: normal;
-    word-wrap: normal;
-    padding-left: 1%;
-    font-size: 13.5px;
+    /* css container control for paragraph and list items */
+    margin: auto;
+    font-style:normal;
+    word-wrap:normal;
+    padding-left: 1.5%;
+    font-size: large;
+    list-style-type:disc;
+    list-style-position: inside;
+    
+    
+
 }
 
+article h2{
+    /* css container control for headings */
+    font-size: 2em;
+    padding: 20px ;
+}
+
+
 .form-submission {
+    /* form container control for everything in the container */
     padding: 2%;
     padding-right: 5%;
     width: 90%;
     border-style:solid;
     border-width:thin;
-    font-size: 14px;
+    font-size: normal;
     margin:auto;
 }
 
-
-
-.form-section h2 {
+.form-section h2{
+    /* form container for heading specific work */
+    font-size: 2em;
     padding: 1.5%;
 }
 
-.form-submission input{
-    padding: 1%;
-}
-
-section div .field-inputs input, textarea{
+section div .field-inputs input{
+    /* css control for email and name input fields in the form container */
     width: 100%;
-
 }
 
 section div .field-inputs textarea{
+    /* css control  */
     width: 101%;
     resize: none;
     height: 5rem;
-}
+    padding: 1em;
 
+}
 
 footer{
     text-align: right;
